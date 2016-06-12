@@ -3,8 +3,6 @@ include <../dimensions.scad>
 include <shapes.scad>
 include <community/shapes.scad>
 
-
-
 // globals
 handle_width=45;
 handle_height=18;

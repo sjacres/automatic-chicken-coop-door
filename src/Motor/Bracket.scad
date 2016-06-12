@@ -1,46 +1,13 @@
-$fn=128;
+include <../common.scad>
+include <../dimensions.scad>
 
 // globals
-
-// The bit that sticks in the chuck
-bit_radius=7/2;
-bit_depth=13;
-
-// The chuck of the driver
-chuck_radius=11.1/2;
-chuck_length=18;
-
-// Drill parts
-ring_start=chuck_length;
-ring_radius1=28/2;
-ring_radius2=36/2;
-ring_length=17.5;
-
-collar_start=ring_start+ring_length;
-collar_radius1=ring_radius2;
-collar_radius2=41/2;
-collar_length=37.5;
-
-handle_start=collar_start+collar_length;
-handle_radius1=collar_radius2;
-handle_radius2=46.5/2;
-handle_length=53.9;
-
-battery_start=handle_start+handle_length;
-battery_length=45;
-
-drill_length=battery_start+battery_length;
 
 // Button holes
 button_radius1=17.4/2;
 button_radius2=13.4/2;
 button_center_down=collar_radius1/2;
 button_center_back=21;
-
-// Screw hole
-recess_radius=9/2;
-screw_radius=4/2;
-screw_head=4;
 
 // bracket
 gap_from_wall=0;
