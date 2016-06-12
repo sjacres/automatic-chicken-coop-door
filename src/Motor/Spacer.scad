@@ -1,5 +1,5 @@
 include <../common.scad>
-include <../dimensions.scad>
+include <dimensions.scad>
 include <shapes.scad>
 include <community/shapes.scad>
 
